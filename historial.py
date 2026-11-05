@@ -7,7 +7,7 @@ from pathlib import Path
 
 import csv
 from pathlib import Path
-
+from calculos import calcular_totales_categoria
 # Ubicacion del archivo CSV
 ARCHIVO_CSV = Path(__file__).parent / "gastos.csv"
 
@@ -88,7 +88,20 @@ def mostrar_historial(gastos):
         gastos,
         use_container_width=True  
     )
-    
+def mostrar_graficas(gastos):
+
+    st.subheader("Graficas de gastos")
+    if not gastos:
+        st.info("Todavia no hay gastos registrados.")
+        return
+
+    totales_categoria = calcular_totales_categoria(gastos)
+
+    if not totales_categoria:
+        st.info("No hay datos suficientes para generar graficas.")
+        return
+
+    figura, eje = plt.subplots()
     eje.pie(
         totales_categoria.values(),
         labels=totales_categoria.keys(),
