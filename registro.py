@@ -22,7 +22,7 @@ def formulario_gastos():
             min_value=0.01,
             step=0.01
             )
-        descripción = st.text_input(
+        descripcion = st.text_input(
             "Descripción del gasto (opcional)"
             )
         boton = st.form_submit_button("Registrar gasto")
@@ -35,7 +35,7 @@ def formulario_gastos():
                 "concepto": concepto,
                 "categoria": categoria,
                 "cantidad": cantidad,
-                "descripción": descripción
+                "descripcion": descripcion
             }
             st.success("Gasto registrado exitosamente.")
             return gasto
