@@ -23,7 +23,8 @@ Entre los integrantes del equipo se dividio el codigo para la ejecucion del prog
 
 
 
-Se ocupa la version de Python 3.14.7
+Se ocupa la version de Python 3.14.7 para la creación de la app.
+
 INSTRUCCIONES DE INSTALACION Y EJECUCION
 Primero se debe instalar python.
 Instalar Python.
@@ -31,7 +32,21 @@ Descargar o clonar el repositorio desde GitHub.
 Abrir la carpeta del proyecto en Visual Studio Code.
 Abrir una terminal dentro de esa carpeta.
 Instalar las dependencias.
-
-
-
 Ejecutar la aplicación.
+
+# COMO USARLO
+Para hacer el registro dentro de la aplicación.
+Fecha: Primero se escoge la fecha la cual tendra el registro,aqui puedes escribirla manualmente empezando por el año, mes y dia; tambien puedes escogerla por medio del calendario y escoger la fecha exacta.
+
+Concepto: Se escribe el concepto por el cual quieres reconocer el gasto.
+
+Categoria: Escoges de una lista desplegable la categoria a la que es acorde el gasto a registrar (Alimentación, Transporte, Entretenimiento, Salud, Servicios, Otros)
+
+Descripción del gasto: Este es de manera opcional, que redacta si necesitas una descripción mas precisa del gasto a tu consideración.
+
+Al finalizar, decides en la tabla de tus gastos ya registrados la opcion de descargar los datos que tengas en formato CSV.
+
+# LIMITACIONES
+
+
+
