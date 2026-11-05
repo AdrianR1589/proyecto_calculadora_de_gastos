@@ -1,4 +1,4 @@
-# proyecto_calculadora_de_gastos
+# Proyecto_Calculadora_de_Gastos
 Proyecto de una calculadora de gastos que te ayude a clasificar y obtener los gastos que tienes
 
 CALCULADORA DE GASTOS
@@ -15,11 +15,11 @@ Esta calculadora lo que busca es darte una visualizacion de como vas utilizando 
 
 Entre los integrantes del equipo se dividio el codigo para la ejecucion del programa, cada uno formó un archivo propio de python que despues se subio a este repositorio que terminó finalizando en otro archivo que conectaba todos los archivos hechos de cada integrante, que era el final y ejecutaba por completo el programa. 
 
-Adrian se encargo del codigo para hacer el registro de los datos de los gastos y el codigo para unir y ejecutar los archivos.
+*Adrian* se encargo del codigo para hacer el registro de los datos de los gastos y el codigo para unir y ejecutar los archivos.
 
-Nery se encargo del codigo para hacer los calculos de los registros obtenidos para obtener suma, suma por categorias, promedio de los gastos registrados.
+*Nery* se encargo del codigo para hacer los calculos de los registros obtenidos para obtener suma, suma por categorias, promedio de los gastos registrados.
 
-Lucero se encargo del codigo para ilustrar los registros en tablas de los gastos, la ilustración de los gastos por categorias por medio de grafica circular y el guardado para descargar el registro por CSV.
+*Lucero* se encargo del codigo para ilustrar los registros en tablas de los gastos, la ilustración de los gastos por categorias por medio de grafica circular y el guardado para descargar el registro por CSV.
 
 
 
